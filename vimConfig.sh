@@ -6,3 +6,6 @@ git clone https://github.com/sickill/vim-monokai.git
 cp -r vim-monokai/colors ~/.vim/
 rm -rf vim-monokai
 vim  -c "PlugInstall"  -c q -c wq ~/.vimrc
+cd ..
+rm -rf My-Vim-Setup
+cd
